@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Barwalia</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            height: 100vh;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        section {
+            padding: 100px 50px;
+            text-align: center;
+        }
+        .projects, .certifications, .videos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project, .certification, .video {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .project h3, .certification h3, .video h3 {
+            margin: 0 0 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Gaurav Barwalia</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#videos">YouTube Videos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>Hi, I'm Gaurav Barwalia</h1>
+            <p>Data Engineer | Innovator | Tech Enthusiast</p>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Data Engineer with expertise in ETL, cloud technologies, and IoT. With a knack for problem-solving and innovation, I aim to deliver impactful solutions to real-world problems.</p>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <div>
+            <h3>ZS Associates, Pune (June 2021 - Present)</h3>
+            <p>Serving Bristol Myers Squibb (BMS) for commercial analytics workloads using Python-based ETL frameworks.</p>
+            <p>Integrated new data sources, created data models, and built business logic for analytics.</p>
+            <p>Collaborated with business and analytics teams to align requirements and development.</p>
+            <h3>IBM India Pvt Ltd, Pune (Feb 2016 - June 2021)</h3>
+            <p>Integrated and supported healthcare data sources using SQL Server, SSIS, and SAP BO for NHS England.</p>
+            <h3>GB Info Systems, Pune (Sep 2018 - Jul 2020)</h3>
+            <p>Designed IoT-based smart home devices and integrated Alexa/Google Assistant functionalities.</p>
+            <p>Developed firmware using C++ and BLYNK IoT platform.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Smart Home Automation</h3>
+                <p>Designed IoT-based smart home systems integrated with Alexa and Google Assistant.</p>
+            </div>
+            <div class="project">
+                <h3>Data Pipeline Optimization</h3>
+                <p>Built and optimized data pipelines for Bristol Myers Squibb using Python and AWS.</p>
+            </div>
+            <div class="project">
+                <h3>ETL Framework Development</h3>
+                <p>Developed Python-based ETL frameworks to automate data workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <div class="certification">
+                <h3>Advanced SQL - HackerRank</h3>
+                <a href="https://www.hackerrank.com/certificates/138dcc0dfb5f" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Snowflake Data Engineering Workshop</h3>
+                <a href="https://achieve.snowflake.com/87db817f-818e-4cd6-94bd-a33d6a8433e0" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Databricks Fundamentals</h3>
+                <a href="https://credentials.databricks.com/1e305f14-d29a-498a-8e3f-3a8a610f950c" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>YouTube Videos</h2>
+        <div class="videos">
+            <div class="video">
+                <h3>Control your TV or Music System</h3>
+                <a href="https://www.youtube.com/watch?v=LqmkDKu54XY" target="_blank">Watch Video</a>
+            </div>
+            <div class="video">
+                <h3>Sound Responsive Disco Light</h3>
+                <a href="https://www.youtube.com/watch?v=MFN0eokscA4" target="_blank">Watch Video</a>
+            </div>
+            <div class="video">
+                <h3>Infinity Mirror Tutorial</h3>
+                <a href="https://www.youtube.com/watch?v=fNMy_7Un53A" target="_blank">Watch Video</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gaurav.gbaba@gmail.com">gaurav.gbaba@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/gbarwalia" target="_blank">linkedin.com/in/gbarwalia</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gaurav Barwalia | Built with HTML & CSS</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
