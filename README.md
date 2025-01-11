@@ -1,2 +1,2 @@
-# [gauravbarwalia.github.io](https://noobgb.github.io/Gaurav_Barwalia_Resume/)
-Online Resume
+# [Online Resume](https://noobgb.github.io/Gaurav_Barwalia_Resume/)
+
